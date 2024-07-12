@@ -1,0 +1,47 @@
+
+/* @font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+} */
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+    font-weight: 900;
+}
+/*--------------*/
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/montserrat/Montserrat-ExtraBold.otf);
+    font-weight: 800;
+}
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/montserrat/Montserrat-Bold.otf);
+    font-weight:700;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/montserrat/Montserrat-SemiBold.otf);
+    font-weight: 600;
+}
+
+
+
+
