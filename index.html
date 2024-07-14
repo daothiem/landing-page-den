@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Máy chặt gà đa năng </title>
+    <title>Đèn livestream chuyên nghiệp - HCMedia</title>
     <meta name="description" content=''>
     <meta name="keywords" content=''>
     <meta name="robots" content="index, follow">
@@ -99,7 +99,7 @@
                     background-image: url('./assets/img/check.png');
                     width: 15px;
                     height: 14.990360133017878px;
-                    color: #4d87c2;
+                    color: #104291;
                     font-size: 15px;
                     top: 5px;
                 }</style>
@@ -129,7 +129,7 @@
                                  width="100%" height="100%" viewBox="0 0 15.752315521240234 17.9976863861084">
                                 <foreignObject x="0" y="0" width="15.752315521240234" height="17.9976863861084"><i
                                         class=" far fa-wreath"
-                                        style="font-size: 18px; color: #4d87c2; cursor: pointer;"></i>
+                                        style="font-size: 18px; color: #104291; cursor: pointer;"></i>
                                 </foreignObject>
                             </svg>
                         </div>
@@ -150,7 +150,7 @@
                                  width="100%" height="100%" viewBox="0 0 18.009260177612305 17.9976863861084">
                                 <foreignObject x="0" y="0" width="18.009260177612305" height="17.9976863861084"><i
                                         class=" far  fa-sync-alt"
-                                        style="font-size: 18px; color: #4d87c2; cursor: pointer;"></i>
+                                        style="font-size: 18px; color: #104291; cursor: pointer;"></i>
                                 </foreignObject>
                             </svg>
                         </div>
@@ -171,7 +171,7 @@
                                  width="100%" height="100%" viewBox="0 0 18.009260177612305 17.9976863861084">
                                 <foreignObject x="0" y="0" width="18.009260177612305" height="17.9976863861084"><i
                                         class=" far  fa-shield-check"
-                                        style="font-size: 18px; color: #4d87c2; cursor: pointer;"></i>
+                                        style="font-size: 18px; color: #104291; cursor: pointer;"></i>
                                 </foreignObject>
                             </svg>
                         </div>
@@ -192,7 +192,7 @@
                                  width="100%" height="100%" viewBox="0 0 22.500001907348633 17.9976863861084">
                                 <foreignObject x="0" y="0" width="22.500001907348633" height="17.9976863861084"><i
                                         class=" far  fa-money-check-edit-alt"
-                                        style="font-size: 18px; color: #4d87c2; cursor: pointer;"></i>
+                                        style="font-size: 18px; color: #104291; cursor: pointer;"></i>
                                 </foreignObject>
                             </svg>
                         </div>
@@ -692,8 +692,6 @@
                     <div class="item"
                          style="min-height: 59.5px; background-image: url('./assets/images/products/3-cau.jpg');"></div>
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url('./assets/images/products/IMG_8082.JPG');"></div>
-                    <div class="item"
                          style="min-height: 59.5px; background-image: url('./assets/images/products/bo-5-den.jpg');"></div>
                 </div>
             </div>
@@ -901,24 +899,6 @@
     <div class="sp_container">
         <div id="TITLE92"><h3>Đánh giá về sản phẩm</h3></div>
         <div id="TITLE93"><h3>Tất cả bình luận</h3></div>
-        <div id="TITLE94"><h3>Sắp xếp theo</h3></div>
-        <div id="GROUP47">
-            <div>
-                <div id="BOX60">
-                    <div></div>
-                </div>
-                <div id="TITLE95"><h3>Hàng đầu</h3></div>
-                <div id="SHAPE20">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
-                         height="100%" viewBox="0 0 11.250000953674316 17.9976863861084">
-                        <foreignObject x="0" y="0" width="11.250000953674316" height="17.9976863861084"><i
-                                class=" far  fa-sort"
-                                style="font-size: 18px; color: rgba(0, 0, 0, 0.5); cursor: pointer;"></i>
-                        </foreignObject>
-                    </svg>
-                </div>
-            </div>
-        </div>
         <div id="LINE8">
             <div></div>
         </div>
@@ -1532,25 +1512,20 @@
                 phone: $('#input_phone').val(),
                 product: $('#input_product').val()
             };
-            console.log(formData)
 
             $.ajax({
-                url: 'https://script.google.com/macros/s/AKfycbxh1EXgKeP2aep02vyCHDaWVsOwXnwhc1D2emGrLjDuTIMpeqcy0c6808CFRQ5EEAlqcQ/exec',
-                method: 'POST',
-                dataType: 'json',
-                crossDomain: true,
-                headers: {
-                    'Access-Control-Allow-Origin': '*'
-                },
+                url: 'https://script.google.com/macros/s/AKfycbzJaAJO2ytKUiyiiE989zlH-YyuaZ6cNFi6daj-vpHNIjaOSbwobuOis3MSdtB65NHE9A/exec',
+                type: 'POST',
+                contentType: 'application/json',
                 data: JSON.stringify(formData),
                 success: function(response) {
-                    console.log(response);
+                    alert('Data has been submitted successfully!');
                 },
                 error: function(error) {
-                    console.log(error);
+                    console.log('Error:', error);
+                    alert('There was an error submitting the form.');
                 }
             });
-        });
         });
     })
 </script>

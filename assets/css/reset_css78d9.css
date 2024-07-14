@@ -8,7 +8,7 @@
     --space-border-builder-mobile: calc(((100% - 420px)/2));
     --left-out-border-builder: calc(((100% - 960px)/2) + 960px);
     --left-out-border-builder-mobile: calc(((100% - 420px)/2) + 420px);
-    
+
     --width-resize:  20px;
     --center-resize: calc(50% - 10px);
     --border-resize: 1px;
@@ -498,7 +498,7 @@ div:has(.count_cart){
   width:100%  !important;
   background-image:url('../builder/img/default/product_demo_1.png');
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .child_gallery{
@@ -599,7 +599,7 @@ div:has(.count_cart){
   box-sizing: border-box;
   gap: 10px;
   padding-left: 5px;
-    
+
 }
 .item_notify img{
   width:70px;
@@ -749,13 +749,13 @@ div:has(.count_cart){
     animation-name: spin;
     animation-duration: 1000ms;
     animation-iteration-count: infinite;
-    animation-timing-function: linear; 
+    animation-timing-function: linear;
 }
 .bg_luckyspin.spin_2, .html_list_coupon.spin_2{
     animation-name: spin;
     animation-duration: 3000ms;
     animation-iteration-count: infinite;
-    animation-timing-function: linear; 
+    animation-timing-function: linear;
 }
 @keyframes spin {
     from {

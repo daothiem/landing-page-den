@@ -24,7 +24,7 @@ body {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #4d87c2;
+    background-color: #104291;
 }
 
 #IMAGE1 {
@@ -37,10 +37,10 @@ body {
 #IMAGE1 > *:first-child {
     width: 200px;
     height: 48.8281px;
-    background-image: url('https://photo.salekit.com/uploads/salepage_636b197a47737362cb035733/logo-salekit-white-2.png');
+    background-image: url('../images/logo/logo-hc.png');
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-attachment: scroll;
     background-origin: content-box;
     border-radius: 0px;
@@ -158,7 +158,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: Oswald;
 }
 
@@ -239,7 +239,7 @@ body {
     border-width: 1px;
     box-sizing: border-box;
     border-color: rgb(174, 174, 174);
-    background-color: #4d87c2;
+    background-color: #104291;
 }
 
 #TITLE6 {
@@ -294,7 +294,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: 'Open Sans';
     text-align: center;
     font-weight: bold;
@@ -344,7 +344,7 @@ body {
     background: none;
     border-width: 1px;
     box-sizing: border-box;
-    border-color: #4d87c2;
+    border-color: #104291;
     border-style: solid;
 }
 
@@ -367,9 +367,9 @@ body {
     background-clip: initial;
     border-width: 1px;
     box-sizing: border-box;
-    border-color: #4d87c2;
+    border-color: #104291;
     border-style: solid;
-    background-color: #4d87c2;
+    background-color: #104291;
 }
 
 #TITLE8 {
@@ -494,7 +494,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: 'Open Sans';
     text-align: center;
     font-weight: bold;
@@ -580,7 +580,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: 'Open Sans';
     text-align: center;
     font-weight: bold;
@@ -666,7 +666,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: 'Open Sans';
     text-align: center;
     font-weight: bold;
@@ -752,7 +752,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: 'Open Sans';
     text-align: center;
     font-weight: bold;
@@ -779,7 +779,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: Montserrat;
     text-align: center;
     font-weight: bold;
@@ -893,7 +893,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: Montserrat;
     text-align: center;
     font-weight: bold;
@@ -2450,7 +2450,7 @@ body {
     border-width: 1px;
     box-sizing: border-box;
     border-color: rgb(174, 174, 174);
-    background-color: #4d87c2;
+    background-color: #104291;
     border-radius: 22.5px;
 }
 
@@ -2511,7 +2511,7 @@ body {
     border-width: 1px;
     box-sizing: border-box;
     border-color: rgb(174, 174, 174);
-    background-color: #4d87c2;
+    background-color: #104291;
     border-radius: 22.5px;
 }
 
@@ -2590,7 +2590,7 @@ body {
     border-width: 1px;
     box-sizing: border-box;
     border-color: rgb(174, 174, 174);
-    background-color: #4d87c2;
+    background-color: #104291;
     border-radius: 22.5px;
 }
 
@@ -2667,7 +2667,7 @@ body {
     border-width: 1px;
     box-sizing: border-box;
     border-color: rgb(174, 174, 174);
-    background-color: #4d87c2;
+    background-color: #104291;
     border-radius: 22.5px;
 }
 
@@ -2903,7 +2903,7 @@ body {
     background-clip: initial;
     border-width: 1px;
     box-sizing: border-box;
-    border-color: #4d87c2;
+    border-color: #104291;
     background-image: none;
     border-style: dashed;
 }
@@ -2946,7 +2946,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: 'Open Sans';
     text-align: center;
     font-weight: bold;
@@ -3154,7 +3154,7 @@ body {
     background-clip: initial;
     border-width: 1px;
     box-sizing: border-box;
-    border-color: #4d87c2;
+    border-color: #104291;
     background-image: none;
     border-style: dashed;
 }
@@ -3197,7 +3197,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: 'Open Sans';
     text-align: center;
     font-weight: bold;
@@ -3405,7 +3405,7 @@ body {
     background-clip: initial;
     border-width: 1px;
     box-sizing: border-box;
-    border-color: #4d87c2;
+    border-color: #104291;
     background-image: none;
     border-style: dashed;
 }
@@ -3448,7 +3448,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: 'Open Sans';
     text-align: center;
     font-weight: bold;
@@ -3555,7 +3555,7 @@ body {
     border-width: 1px;
     box-sizing: border-box;
     border-style: solid;
-    border-color: #4d87c2;
+    border-color: #104291;
 }
 
 #GROUP36 {
@@ -3590,7 +3590,7 @@ body {
     background-clip: initial;
     border-width: 1px;
     box-sizing: border-box;
-    border-color: #4d87c2;
+    border-color: #104291;
     background-image: none;
     border-style: solid;
 }
@@ -3628,7 +3628,7 @@ body {
     border-radius: 0px;
     font-family: 'Open Sans';
     text-align: center;
-    color: #4d87c2;
+    color: #104291;
 }
 
 #GROUP37 {
@@ -3663,7 +3663,7 @@ body {
     background-clip: initial;
     border-width: 1px;
     box-sizing: border-box;
-    border-color: #4d87c2;
+    border-color: #104291;
     background-image: none;
     border-style: solid;
 }
@@ -3701,7 +3701,7 @@ body {
     border-radius: 0px;
     font-family: 'Open Sans';
     text-align: center;
-    color: #4d87c2;
+    color: #104291;
 }
 
 #GROUP38 {
@@ -3736,7 +3736,7 @@ body {
     background-clip: initial;
     border-width: 1px;
     box-sizing: border-box;
-    border-color: #4d87c2;
+    border-color: #104291;
     background-image: none;
     border-style: solid;
 }
@@ -3774,7 +3774,7 @@ body {
     border-radius: 0px;
     font-family: 'Open Sans';
     text-align: center;
-    color: #4d87c2;
+    color: #104291;
 }
 
 #GALLERY2 {
@@ -3810,7 +3810,7 @@ body {
     padding: 0px 4px;
     box-sizing: border-box;
     border-radius: 0px;
-    color: #4d87c2;
+    color: #104291;
     font-family: 'Open Sans';
     text-align: left;
     justify-content: left;
@@ -4053,7 +4053,7 @@ body {
     background-clip: initial;
     border-width: 1px;
     box-sizing: border-box;
-    border-color: #4d87c2;
+    border-color: #104291;
     background-image: none;
     border-style: solid;
 }
@@ -5147,7 +5147,7 @@ body {
 #IMAGE10 > *:first-child {
     width: 20px;
     height: 20px;
-    background-image: url('https://photo.salekit.com/uploads/salepage_636b197a47737362cb035733/star.png');
+    background-image: url('../images/logo/logo-hc.png');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6243,7 +6243,7 @@ body {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: #4d87c2;
+    background-color: #104291;
 }
 
 #IMAGE29 {
@@ -6256,10 +6256,10 @@ body {
 #IMAGE29 > *:first-child {
     width: 200px;
     height: 48.8281px;
-    background-image: url('https://photo.salekit.com/uploads/salepage_636b197a47737362cb035733/logo-salekit-white-2.png');
+    background-image: url('../images/logo/logo-hc.png');
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-attachment: scroll;
     background-origin: content-box;
     border-radius: 0px;
@@ -6358,13 +6358,13 @@ body {
 #TITLE122 {
     position: absolute;
     z-index: 1;
-    top: 43.5px;
+    top: 54.5px;
     left: 42px;
 }
 
 #TITLE122 > *:first-child {
     margin: 0px;
-    width: 159px;
+    width: 209px;
     height: 22px;
     font-size: 16px;
     min-inline-size: fit-content;
@@ -6520,7 +6520,7 @@ body {
         background-attachment: initial;
         background-origin: initial;
         background-clip: initial;
-        background-color: #4d87c2;
+        background-color: #104291;
     }
 
     #IMAGE1 {
@@ -6533,10 +6533,10 @@ body {
     #IMAGE1 > *:first-child {
         width: 200px;
         height: 48.8281px;
-        background-image: url('https://photo.salekit.com/uploads/salepage_636b197a47737362cb035733/logo-salekit-white-2.png');
+        background-image: url('../images/logo/logo-hc.png');
         background-position: center top;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-attachment: scroll;
         background-origin: content-box;
         border-radius: 0px;
@@ -6571,6 +6571,7 @@ body {
     }
 
     #TITLE2 > *:first-child {
+        text-align: center;
         margin: 0px;
         width: 227px;
         height: 27px;
@@ -6632,7 +6633,7 @@ body {
         background-image: url('../images/products/hcmediavn.hc@gmail.com5555.png');
         background-position: center top;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-attachment: scroll;
         background-origin: content-box;
         border-radius: 0px;
@@ -6655,9 +6656,10 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: Oswald;
         text-align: center;
+        line-height: 70px;
     }
 
     #TITLE4 {
@@ -6737,7 +6739,7 @@ body {
         border-width: 1px;
         box-sizing: border-box;
         border-color: rgb(174, 174, 174);
-        background-color: #4d87c2;
+        background-color: #104291;
     }
 
     #TITLE6 {
@@ -6792,7 +6794,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: 'Open Sans';
         text-align: center;
         font-weight: bold;
@@ -6843,7 +6845,7 @@ body {
         background: none;
         border-width: 1px;
         box-sizing: border-box;
-        border-color: #4d87c2;
+        border-color: #104291;
         border-style: solid;
     }
 
@@ -6866,9 +6868,9 @@ body {
         background-clip: initial;
         border-width: 1px;
         box-sizing: border-box;
-        border-color: #4d87c2;
+        border-color: #104291;
         border-style: solid;
-        background-color: #4d87c2;
+        background-color: #104291;
     }
 
     #TITLE8 {
@@ -7003,7 +7005,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: 'Open Sans';
         text-align: center;
         font-weight: bold;
@@ -7099,7 +7101,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: 'Open Sans';
         text-align: center;
         font-weight: bold;
@@ -7195,7 +7197,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: 'Open Sans';
         text-align: center;
         font-weight: bold;
@@ -7291,7 +7293,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: 'Open Sans';
         text-align: center;
         font-weight: bold;
@@ -7318,7 +7320,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: Montserrat;
         text-align: center;
         font-weight: bold;
@@ -7432,7 +7434,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: Montserrat;
         text-align: center;
         font-weight: bold;
@@ -8984,7 +8986,7 @@ body {
         border-width: 1px;
         box-sizing: border-box;
         border-color: rgb(174, 174, 174);
-        background-color: #4d87c2;
+        background-color: #104291;
         border-radius: 22.5px;
     }
 
@@ -9044,7 +9046,7 @@ body {
         border-width: 1px;
         box-sizing: border-box;
         border-color: rgb(174, 174, 174);
-        background-color: #4d87c2;
+        background-color: #104291;
         border-radius: 22.5px;
     }
 
@@ -9124,7 +9126,7 @@ body {
         border-width: 1px;
         box-sizing: border-box;
         border-color: rgb(174, 174, 174);
-        background-color: #4d87c2;
+        background-color: #104291;
         border-radius: 22.5px;
     }
 
@@ -9201,7 +9203,7 @@ body {
         border-width: 1px;
         box-sizing: border-box;
         border-color: rgb(174, 174, 174);
-        background-color: #4d87c2;
+        background-color: #104291;
         border-radius: 22.5px;
     }
 
@@ -9438,7 +9440,7 @@ body {
         background-clip: initial;
         border-width: 1px;
         box-sizing: border-box;
-        border-color: #4d87c2;
+        border-color: #104291;
         background-image: none;
         border-style: dashed;
     }
@@ -9481,7 +9483,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: 'Open Sans';
         text-align: center;
         font-weight: bold;
@@ -9689,7 +9691,7 @@ body {
         background-clip: initial;
         border-width: 1px;
         box-sizing: border-box;
-        border-color: #4d87c2;
+        border-color: #104291;
         background-image: none;
         border-style: dashed;
     }
@@ -9732,7 +9734,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: 'Open Sans';
         text-align: center;
         font-weight: bold;
@@ -9940,7 +9942,7 @@ body {
         background-clip: initial;
         border-width: 1px;
         box-sizing: border-box;
-        border-color: #4d87c2;
+        border-color: #104291;
         background-image: none;
         border-style: dashed;
     }
@@ -9983,7 +9985,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: 'Open Sans';
         text-align: center;
         font-weight: bold;
@@ -10091,7 +10093,7 @@ body {
         border-width: 1px;
         box-sizing: border-box;
         border-style: solid;
-        border-color: #4d87c2;
+        border-color: #104291;
     }
 
     #GROUP36 {
@@ -10126,7 +10128,7 @@ body {
         background-clip: initial;
         border-width: 1px;
         box-sizing: border-box;
-        border-color: #4d87c2;
+        border-color: #104291;
         background-image: none;
         border-style: solid;
     }
@@ -10164,7 +10166,7 @@ body {
         border-radius: 0px;
         font-family: 'Open Sans';
         text-align: center;
-        color: #4d87c2;
+        color: #104291;
     }
 
     #GROUP37 {
@@ -10199,7 +10201,7 @@ body {
         background-clip: initial;
         border-width: 1px;
         box-sizing: border-box;
-        border-color: #4d87c2;
+        border-color: #104291;
         background-image: none;
         border-style: solid;
     }
@@ -10237,7 +10239,7 @@ body {
         border-radius: 0px;
         font-family: 'Open Sans';
         text-align: center;
-        color: #4d87c2;
+        color: #104291;
     }
 
     #GROUP38 {
@@ -10272,7 +10274,7 @@ body {
         background-clip: initial;
         border-width: 1px;
         box-sizing: border-box;
-        border-color: #4d87c2;
+        border-color: #104291;
         background-image: none;
         border-style: solid;
     }
@@ -10310,7 +10312,7 @@ body {
         border-radius: 0px;
         font-family: 'Open Sans';
         text-align: center;
-        color: #4d87c2;
+        color: #104291;
     }
 
     #GALLERY2 {
@@ -10346,7 +10348,7 @@ body {
         padding: 0px 4px;
         box-sizing: border-box;
         border-radius: 0px;
-        color: #4d87c2;
+        color: #104291;
         font-family: 'Open Sans';
         text-align: left;
         justify-content: left;
@@ -10594,7 +10596,7 @@ body {
         background-clip: initial;
         border-width: 1px;
         box-sizing: border-box;
-        border-color: #4d87c2;
+        border-color: #104291;
         background-image: none;
         border-style: solid;
     }
@@ -10751,7 +10753,7 @@ body {
         position: absolute;
         z-index: 1;
         top: 0px;
-        left: 0px;
+        left: -2px;
     }
 
     #BOX54 > *:first-child {
@@ -12771,7 +12773,7 @@ body {
         background-attachment: initial;
         background-origin: initial;
         background-clip: initial;
-        background-color: #4d87c2;
+        background-color: #104291;
     }
 
     #IMAGE29 {
@@ -12784,10 +12786,10 @@ body {
     #IMAGE29 > *:first-child {
         width: 200px;
         height: 48.8281px;
-        background-image: url('https://photo.salekit.com/uploads/salepage_636b197a47737362cb035733/logo-salekit-white-2.png');
+        background-image: url('../images/logo/logo-hc.png');
         background-position: center top;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-attachment: scroll;
         background-origin: content-box;
         border-radius: 0px;
