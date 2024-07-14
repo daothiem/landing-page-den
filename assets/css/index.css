@@ -132,10 +132,10 @@ body {
 #IMAGE3 > *:first-child {
     width: 636px;
     height: 453.945px;
-    background-image: url('../images/products/hcmediavn.hc@gmail.com5555.png');
+    background-image: url('../images/products/hcmediavn.h.PNG');
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-attachment: scroll;
     background-origin: content-box;
     border-radius: 0px;
@@ -1827,7 +1827,7 @@ body {
     border-radius: 0px;
     background-position: center top;
     background-repeat: no-repeat;
-    background-image: url('../images/products/hinh-chu-nhat.jpg');
+    background-image: url('../images/products/photo_2024-07-14 22.05.50.jpeg');
     background-size: contain;
     background-attachment: scroll;
     background-origin: content-box;
@@ -2372,7 +2372,7 @@ body {
     border-radius: 0px;
     background-position: center top;
     background-repeat: no-repeat;
-    background-image: url('https://photo.salekit.com/uploads/salepage_636b197a47737362cb035733/o1cn01jgldwv21dfznfe6ce-2214199237007-0-cib-20220819060346.jpg');
+    background-image: url('../images/products/7BEE28CC-991C-46DA-8AB4-06878F7769E7.jpeg');
     background-size: cover;
     background-attachment: scroll;
     background-origin: content-box;
@@ -4744,7 +4744,7 @@ body {
 
 #BUTTON7 {
     position: absolute;
-    top: 236px;
+    top: 271px;
     left: 0px;
     z-index: 1;
 }
@@ -6630,7 +6630,7 @@ body {
     #IMAGE3 > *:first-child {
         width: 421px;
         height: 298.611px;
-        background-image: url('../images/products/hcmediavn.hc@gmail.com5555.png');
+        background-image: url('../images/products/hcmediavn.h.PNG');
         background-position: center top;
         background-repeat: no-repeat;
         background-size: contain;
@@ -8363,7 +8363,7 @@ body {
         border-radius: 0px;
         background-position: center top;
         background-repeat: no-repeat;
-        background-image: url('../images/products/hinh-chu-nhat.jpg');
+        background-image: url('../images/products/photo_2024-07-14 22.05.50.jpeg');
         background-size: contain;
         background-attachment: scroll;
         background-origin: content-box;
@@ -8908,7 +8908,7 @@ body {
         border-radius: 0px;
         background-position: center top;
         background-repeat: no-repeat;
-        background-image: url('https://photo.salekit.com/uploads/salepage_636b197a47737362cb035733/o1cn01jgldwv21dfznfe6ce-2214199237007-0-cib-20220819060346.jpg');
+        background-image: url('../images/products/7BEE28CC-991C-46DA-8AB4-06878F7769E7.jpeg');
         background-size: cover;
         background-attachment: scroll;
         background-origin: content-box;
@@ -11286,7 +11286,7 @@ body {
 
     #BUTTON7 {
         position: absolute;
-        top: 236px;
+        top: 271px;
         left: 0px;
         z-index: 1;
     }
