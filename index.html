@@ -852,24 +852,29 @@
                         <div id="TITLE90"><h3>Giây</h3></div>
                     </div>
                 </div>
-                <div id="FORM1" data-type="lead">
+                <div id="contactForm" data-type="lead">
                     <form>
-                        <div id="INPUT1"><input data-require="true" name="full_name" value="" type="text"
-                                                data-type="text" placeholder="Họ tên"></div>
-                        <div id="INPUT3"><input data-require="true" name="address" value="" type="text" data-type="text"
-                                                placeholder="Địa chỉ"></div>
-                        <div id="INPUT6"><input data-require="true" name="phone" value="" type="text" data-type="phone"
-                                                placeholder="Số điện thoại"></div>
-                        <div id="SELECT1"><select data-require="" name="note" value="" data-type="select">
-                            <option value="">Chọn sản phẩm</option>
-                            <option value="Đèn sofbox cầu">Đèn sofbox cầu - 900.000đ </option>
-                            <option value="Đèn sofbox chữ nhật">Đèn sofbox chữ nhật - 1.055.000đ</option>
-                            <option value="Đèn sofbox tổ ong">Đèn sofbox tổ ong - 1.550.000đ</option>
-                            <option value="Bộ 2 đèn">Bộ 2 đèn - 2.450.000đ</option>
-                            <option value="Bộ 3 đèn">Bộ 3 đèn - 4.155.000đ</option>
-                            <option value="Bộ 4 đèn">Bộ 4 đèn - 5.210.000đ</option>
-                            <option value="Bộ 5 đèn">Bộ 5 đèn - 6.110.000</option>
-                        </select></div>
+                        <div id="INPUT1">
+                            <input data-require="true" id="input_full_name" name="full_name" value="" type="text" data-type="text" placeholder="Họ tên">
+                        </div>
+                        <div id="INPUT3">
+                            <input data-require="true" name="address" id="input_address" value="" type="text" data-type="text" placeholder="Địa chỉ">
+                        </div>
+                        <div id="INPUT6">
+                            <input data-require="true" name="phone" value="" id="input_phone" type="text" data-type="phone" placeholder="Số điện thoại">
+                        </div>
+                        <div id="SELECT1">
+                            <select data-require="" name="product" id="input_product" data-type="select">
+                                <option value="">Chọn sản phẩm</option>
+                                <option value="Đèn sofbox cầu">Đèn sofbox cầu - 900.000đ </option>
+                                <option value="Đèn sofbox chữ nhật">Đèn sofbox chữ nhật - 1.055.000đ</option>
+                                <option value="Đèn sofbox tổ ong">Đèn sofbox tổ ong - 1.550.000đ</option>
+                                <option value="Bộ 2 đèn">Bộ 2 đèn - 2.450.000đ</option>
+                                <option value="Bộ 3 đèn">Bộ 3 đèn - 4.155.000đ</option>
+                                <option value="Bộ 4 đèn">Bộ 4 đèn - 5.210.000đ</option>
+                                <option value="Bộ 5 đèn">Bộ 5 đèn - 6.110.000</option>
+                            </select>
+                        </div>
                         <div id="BUTTON7">
                             <button type="submit"><span> ĐẶT MUA NGAY</span> </button>
                         </div>
@@ -1198,7 +1203,7 @@
         });
     });
 </script>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script type="text/javascript" src="assets/js/youtube_preview.js"></script>
 <script type="text/javascript">
@@ -1514,6 +1519,35 @@
     }
 </script>
 <script type="text/javascript" src="assets/js/after_main78d9.js?v=80"></script>
+<script>
+    $(document).ready(function () {
+        $('#contactForm').on('submit', function(e) {
+            e.preventDefault();
+
+            const formData = {
+                full_name: $('#input_full_name').val(),
+                address: $('#input_address').val(),
+                phone: $('#input_phone').val(),
+                product: $('#input_product').val()
+            };
+            console.log(formData)
+
+            $.ajax({
+                url: 'https://script.google.com/macros/s/AKfycbxh1EXgKeP2aep02vyCHDaWVsOwXnwhc1D2emGrLjDuTIMpeqcy0c6808CFRQ5EEAlqcQ/exec', // Thay thế bằng URL của Web App
+                type: 'POST',
+                data: JSON.stringify(formData),
+                contentType: 'application/json',
+                success: function(response) {
+                    alert('Form submitted successfully!');
+                },
+                error: function(e) {
+                    console.log(e)
+                    //alert('Error submitting form!');
+                }
+            });
+        });
+    })
+</script>
 </body>
 
 <!-- Mirrored from salekit.page/66544bad2d5e000a4c068f24 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Jul 2024 13:21:28 GMT -->

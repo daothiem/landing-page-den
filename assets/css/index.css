@@ -132,7 +132,7 @@ body {
 #IMAGE3 > *:first-child {
     width: 636px;
     height: 453.945px;
-    background-image: url('https://photo.salekit.com/uploads/salepage_636b197a47737362cb035733/may-chat-thit-20220819025818.png');
+    background-image: url('../images/products/1.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6619,7 +6619,7 @@ body {
     #IMAGE3 > *:first-child {
         width: 421px;
         height: 298.611px;
-        background-image: url('https://photo.salekit.com/uploads/salepage_636b197a47737362cb035733/may-chat-thit-20220819025818.png');
+        background-image: url('../images/products/1.jpg');
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
