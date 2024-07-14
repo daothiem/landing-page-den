@@ -301,21 +301,21 @@
         <div id="GALLERY1">
             <div>
                 <div class="main_gallery"
-                     style="background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/2-13.html);">
+                     style="background-image: url('./assets/images/products/6.jpg');">
                     <div class="next_gallery"><i class="far fa-chevron-right"></i></div>
                     <div class="prev_gallery"><i class="far fa-chevron-left"></i></div>
                 </div>
                 <div class="child_gallery">
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/2-13.html);"></div>
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/7.jpg');"></div>
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/1-3.html);"></div>
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/8.jpg');"></div>
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/2-1-600x600.html);"></div>
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/9.jpg');"></div>
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/51.html);"></div>
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/10.jpg');"></div>
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/cach-chon-mua-dao-chat-ga-hieu-qua.html);"></div>
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/6.jpg');"></div>
                 </div>
             </div>
         </div>
@@ -678,21 +678,23 @@
         <div id="GALLERY2">
             <div>
                 <div class="main_gallery"
-                     style="background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/2-13.html);">
+                     style="background-image: url('./assets/images/products/TRG00474.JPG');">
                     <div class="next_gallery"><i class="far fa-chevron-right"></i></div>
                     <div class="prev_gallery"><i class="far fa-chevron-left"></i></div>
                 </div>
                 <div class="child_gallery">
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/2-13.html);"></div>
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/studio-hire-equipment-list.jpg');"></div>
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/1-3.html);"></div>
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/1-ong.jpg');"></div>
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/2-1-600x600.html);"></div>
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/2-nhat.jpg');"></div>
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/51.html);"></div>
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/3-cau.jpg');"></div>
                     <div class="item"
-                         style="min-height: 59.5px; background-image: url(_https_/photo.salekit.com/uploads/salepage_636b197a47737362cb035733/cach-chon-mua-dao-chat-ga-hieu-qua.html);"></div>
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/IMG_8082.JPG');"></div>
+                    <div class="item"
+                         style="min-height: 59.5px; background-image: url('./assets/images/products/bo-5-den.jpg');"></div>
                 </div>
             </div>
         </div>
@@ -1533,18 +1535,22 @@
             console.log(formData)
 
             $.ajax({
-                url: 'https://script.google.com/macros/s/AKfycbxh1EXgKeP2aep02vyCHDaWVsOwXnwhc1D2emGrLjDuTIMpeqcy0c6808CFRQ5EEAlqcQ/exec', // Thay thế bằng URL của Web App
-                type: 'POST',
-                data: JSON.stringify(formData),
-                contentType: 'application/json',
-                success: function(response) {
-                    alert('Form submitted successfully!');
+                url: 'https://script.google.com/macros/s/AKfycbxh1EXgKeP2aep02vyCHDaWVsOwXnwhc1D2emGrLjDuTIMpeqcy0c6808CFRQ5EEAlqcQ/exec',
+                method: 'POST',
+                dataType: 'json',
+                crossDomain: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*'
                 },
-                error: function(e) {
-                    console.log(e)
-                    //alert('Error submitting form!');
+                data: JSON.stringify(formData),
+                success: function(response) {
+                    console.log(response);
+                },
+                error: function(error) {
+                    console.log(error);
                 }
             });
+        });
         });
     })
 </script>
